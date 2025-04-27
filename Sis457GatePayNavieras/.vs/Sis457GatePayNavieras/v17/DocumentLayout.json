@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89014BF2-EF83-40C5-9331-E8BAD1C06585}|ClnGatePayNavieras\\ClnGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\clngatepaynavieras\\clientecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89014BF2-EF83-40C5-9331-E8BAD1C06585}|ClnGatePayNavieras\\ClnGatePayNavieras.csproj|solutionrelative:clngatepaynavieras\\clientecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92DA2-6B5C-4F36-AFE9-6E4F622BEC26}|CadGatePayNavieras\\CadGatePayNavieras.csproj|D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\cadgatepaynavieras\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{53E92DA2-6B5C-4F36-AFE9-6E4F622BEC26}|CadGatePayNavieras\\CadGatePayNavieras.csproj|solutionrelative:cadgatepaynavieras\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E92DA2-6B5C-4F36-AFE9-6E4F622BEC26}|CadGatePayNavieras\\CadGatePayNavieras.csproj|D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\cadgatepaynavieras\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{53E92DA2-6B5C-4F36-AFE9-6E4F622BEC26}|CadGatePayNavieras\\CadGatePayNavieras.csproj|solutionrelative:cadgatepaynavieras\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\cpgatepaynavieras\\themecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\themecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\cpgatepaynavieras\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmgatein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmgatein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmnaviera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmnaviera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmsolictudpagobancochile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmsolictudpagobancochile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|d:\\proyecto_sis457_2025\\sis457gatepaynavieras\\cpgatepaynavieras\\forms\\frmsolicitudpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48E6CF44-BD3D-44D9-96E8-FCF8603BD59D}|CpGatePayNavieras\\CpGatePayNavieras.csproj|solutionrelative:cpgatepaynavieras\\forms\\frmsolicitudpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89014BF2-EF83-40C5-9331-E8BAD1C06585}|ClnGatePayNavieras\\ClnGatePayNavieras.csproj|D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\clngatepaynavieras\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89014BF2-EF83-40C5-9331-E8BAD1C06585}|ClnGatePayNavieras\\ClnGatePayNavieras.csproj|solutionrelative:clngatepaynavieras\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 136,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteCln.cs",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\ClienteCln.cs",
+              "RelativeDocumentMoniker": "ClnGatePayNavieras\\ClienteCln.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\ClienteCln.cs",
+              "RelativeToolTip": "ClnGatePayNavieras\\ClienteCln.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:22:23.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\App.config",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\App.config",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\App.config",
+              "RelativeToolTip": "CpGatePayNavieras\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-27T02:04:54.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmCliente.Designer.cs",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmCliente.Designer.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmCliente.Designer.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmCliente.Designer.cs",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmCliente.Designer.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAYwF0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:34:04.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmCliente.cs",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmCliente.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmCliente.cs",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:30:50.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmSolictudPagoBancoChile.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmSolictudPagoBancoChile.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmSolictudPagoBancoChile.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmSolictudPagoBancoChile.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmSolictudPagoBancoChile.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:06:32.013Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmFactura.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmFactura.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmFactura.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmFactura.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmFactura.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:06:06.245Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmGateIn.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmGateIn.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmGateIn.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmGateIn.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmGateIn.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:05:52.78Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmSolicitudPago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmSolicitudPago.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmSolicitudPago.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmSolicitudPago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmSolicitudPago.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:04:40.972Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmNaviera.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmNaviera.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmNaviera.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmNaviera.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmNaviera.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:01:38.662Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\Forms\\FrmCliente.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\Forms\\FrmCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpGatePayNavieras\\Forms\\FrmCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:56:26.946Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThemeColor.cs",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\ThemeColor.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\ThemeColor.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\ThemeColor.cs",
+              "RelativeToolTip": "CpGatePayNavieras\\ThemeColor.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:22:24.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormMainMenu.cs",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\FormMainMenu.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\FormMainMenu.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\FormMainMenu.cs",
+              "RelativeToolTip": "CpGatePayNavieras\\FormMainMenu.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwHQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:34:42.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMainMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\FormMainMenu.cs",
+              "RelativeDocumentMoniker": "CpGatePayNavieras\\FormMainMenu.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\FormMainMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpGatePayNavieras\\FormMainMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:29:25.889Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadGatePayNavieras\\Modelo.edmx",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadGatePayNavieras\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-23T16:40:03.102Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\App.config",
+              "RelativeDocumentMoniker": "CadGatePayNavieras\\App.config",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\App.config",
+              "RelativeToolTip": "CadGatePayNavieras\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-23T02:33:43.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\Class1.cs",
+              "RelativeDocumentMoniker": "ClnGatePayNavieras\\Class1.cs",
+              "ToolTip": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\Class1.cs",
+              "RelativeToolTip": "ClnGatePayNavieras\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:28:50.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

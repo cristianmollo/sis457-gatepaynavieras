@@ -1,0 +1,12 @@
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll.config
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.pdb
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.xml
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.AssemblyReference.cache
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.CoreCompileInputs.cache
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGateP.4346E547.Up2Date
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.pdb

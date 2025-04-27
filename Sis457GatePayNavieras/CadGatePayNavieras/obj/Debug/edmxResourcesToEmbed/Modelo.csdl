@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LabGatePayNavierasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TipoCliente" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estado" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="GateIn" Relationship="Self.fk_GateIn_Cliente" FromRole="Cliente" ToRole="GateIn" />
+    <NavigationProperty Name="SolicitudPago" Relationship="Self.fk_SolicitudPago_Cliente" FromRole="Cliente" ToRole="SolicitudPago" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGateIn" Type="Int32" Nullable="false" />
+    <Property Name="RutaArchivoPDF" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="FechaEmision" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NumeroFactura" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estado" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="GateIn" Relationship="Self.fk_Factura_GateIn" FromRole="Factura" ToRole="GateIn" />
+  </EntityType>
+  <EntityType Name="GateIn">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="IdNaviera" Type="Int32" Nullable="false" />
+    <Property Name="NumeroBL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contenedor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MontoPago" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="MetodoPago" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaPago" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estado" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.fk_GateIn_Cliente" FromRole="GateIn" ToRole="Cliente" />
+    <NavigationProperty Name="Factura" Relationship="Self.fk_Factura_GateIn" FromRole="GateIn" ToRole="Factura" />
+    <NavigationProperty Name="Naviera" Relationship="Self.fk_GateIn_Naviera" FromRole="GateIn" ToRole="Naviera" />
+    <NavigationProperty Name="Usuario" Relationship="Self.fk_GateIn_Usuario" FromRole="GateIn" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Naviera">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="URLPortal" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estado" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="GateIn" Relationship="Self.fk_GateIn_Naviera" FromRole="Naviera" ToRole="GateIn" />
+    <NavigationProperty Name="SolicitudPago" Relationship="Self.fk_SolicitudPago_Naviera" FromRole="Naviera" ToRole="SolicitudPago" />
+  </EntityType>
+  <EntityType Name="SolicitudPago">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="IdNaviera" Type="Int32" Nullable="false" />
+    <Property Name="NumeroBL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contenedor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MontoEstimado" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="TipoCambio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Comision" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="TotalEnBolivianos" Type="Decimal" Precision="22" Scale="4" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="EstadoG" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaSolicitud" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estado" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.fk_SolicitudPago_Cliente" FromRole="SolicitudPago" ToRole="Cliente" />
+    <NavigationProperty Name="Naviera" Relationship="Self.fk_SolicitudPago_Naviera" FromRole="SolicitudPago" ToRole="Naviera" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreUsuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contrasena" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Rol" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estado" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="GateIn" Relationship="Self.fk_GateIn_Usuario" FromRole="Usuario" ToRole="GateIn" />
+  </EntityType>
+  <Association Name="fk_GateIn_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="GateIn" Type="Self.GateIn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GateIn">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_SolicitudPago_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="SolicitudPago" Type="Self.SolicitudPago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SolicitudPago">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Factura_GateIn">
+    <End Role="GateIn" Type="Self.GateIn" Multiplicity="1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GateIn">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="IdGateIn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_GateIn_Naviera">
+    <End Role="Naviera" Type="Self.Naviera" Multiplicity="1" />
+    <End Role="GateIn" Type="Self.GateIn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Naviera">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GateIn">
+        <PropertyRef Name="IdNaviera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_GateIn_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="GateIn" Type="Self.GateIn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GateIn">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_SolicitudPago_Naviera">
+    <End Role="Naviera" Type="Self.Naviera" Multiplicity="1" />
+    <End Role="SolicitudPago" Type="Self.SolicitudPago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Naviera">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SolicitudPago">
+        <PropertyRef Name="IdNaviera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LabGatePayNavierasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" />
+    <EntitySet Name="Factura" EntityType="Self.Factura" />
+    <EntitySet Name="GateIn" EntityType="Self.GateIn" />
+    <EntitySet Name="Naviera" EntityType="Self.Naviera" />
+    <EntitySet Name="SolicitudPago" EntityType="Self.SolicitudPago" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <AssociationSet Name="fk_GateIn_Cliente" Association="Self.fk_GateIn_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="GateIn" EntitySet="GateIn" />
+    </AssociationSet>
+    <AssociationSet Name="fk_SolicitudPago_Cliente" Association="Self.fk_SolicitudPago_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="SolicitudPago" EntitySet="SolicitudPago" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Factura_GateIn" Association="Self.fk_Factura_GateIn">
+      <End Role="GateIn" EntitySet="GateIn" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="fk_GateIn_Naviera" Association="Self.fk_GateIn_Naviera">
+      <End Role="Naviera" EntitySet="Naviera" />
+      <End Role="GateIn" EntitySet="GateIn" />
+    </AssociationSet>
+    <AssociationSet Name="fk_GateIn_Usuario" Association="Self.fk_GateIn_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="GateIn" EntitySet="GateIn" />
+    </AssociationSet>
+    <AssociationSet Name="fk_SolicitudPago_Naviera" Association="Self.fk_SolicitudPago_Naviera">
+      <End Role="Naviera" EntitySet="Naviera" />
+      <End Role="SolicitudPago" EntitySet="SolicitudPago" />
+    </AssociationSet>
+    <FunctionImport Name="paClienteListar" ReturnType="Collection(LabGatePayNavierasModel.paClienteListar_Result)">
+      <Parameter Name="parametro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="paGateInListar" ReturnType="Collection(LabGatePayNavierasModel.paGateInListar_Result)">
+      <Parameter Name="parametro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="paNavieraListar" ReturnType="Collection(LabGatePayNavierasModel.paNavieraListar_Result)">
+      <Parameter Name="parametro" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="paClienteListar_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Telefono" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TipoCliente" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="paGateInListar_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="IdCliente" Nullable="false" />
+    <Property Type="Int32" Name="IdNaviera" Nullable="false" />
+    <Property Type="String" Name="NumeroBL" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Contenedor" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="MontoPago" Nullable="false" Precision="10" Scale="2" />
+    <Property Type="String" Name="MetodoPago" Nullable="false" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaPago" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="IdUsuario" Nullable="false" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
+    <Property Type="String" Name="NombreCliente" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="NombreNaviera" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="NombreUsuario" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="paNavieraListar_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="URLPortal" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="63a1847f17be497ea023134ec8d7894a" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="LabGatePayNavierasModel.Cliente" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabGatePayNavierasModel.Factura" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabGatePayNavierasModel.GateIn" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabGatePayNavierasModel.Naviera" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabGatePayNavierasModel.SolicitudPago" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabGatePayNavierasModel.Usuario" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="LabGatePayNavierasModel.fk_GateIn_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="LabGatePayNavierasModel.fk_SolicitudPago_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="LabGatePayNavierasModel.fk_Factura_GateIn" ManuallyRouted="false" />
+        <AssociationConnector Association="LabGatePayNavierasModel.fk_GateIn_Naviera" ManuallyRouted="false" />
+        <AssociationConnector Association="LabGatePayNavierasModel.fk_GateIn_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="LabGatePayNavierasModel.fk_SolicitudPago_Naviera" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
