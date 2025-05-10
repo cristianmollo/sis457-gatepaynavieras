@@ -89,6 +89,9 @@
     <Compile Include="paNavieraListar_Result.cs">
       <DependentUpon>Modelo.tt</DependentUpon>
     </Compile>
+    <Compile Include="paSolicitudPagoListar_Result.cs">
+      <DependentUpon>Modelo.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolicitudPago.cs">
       <DependentUpon>Modelo.tt</DependentUpon>

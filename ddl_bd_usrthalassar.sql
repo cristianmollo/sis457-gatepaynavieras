@@ -188,6 +188,37 @@ BEGIN
 END;
 GO
 
+CREATE PROC paSolicitudPagoListar
+    @parametro VARCHAR(100)
+AS
+BEGIN
+    SELECT 
+        SP.Id,
+        SP.IdCliente,
+        C.Nombre AS NombreCliente,
+        SP.IdNaviera,
+        N.Nombre AS NombreNaviera,
+        SP.NumeroBL,
+        SP.Contenedor,
+        SP.MontoEstimado,
+        SP.TipoCambio,
+        SP.Comision,
+        SP.TotalEnBolivianos,
+        SP.EstadoG,
+        SP.FechaSolicitud
+    FROM SolicitudPago SP
+    INNER JOIN Cliente C ON SP.IdCliente = C.Id
+    INNER JOIN Naviera N ON SP.IdNaviera = N.Id
+    WHERE 
+        (C.Nombre + ' ' + N.Nombre + ' ' + SP.NumeroBL + ' ' + ISNULL(SP.Contenedor, '') + ' ' + SP.EstadoG)
+        LIKE '%' + REPLACE(@parametro, ' ', '%') + '%'
+    ORDER BY SP.FechaSolicitud DESC;
+END;
+
+EXEC paSolicitudPagoListar 'Pendiente';
+
+GO
+
 -- procedimiento para listar gatein  con cliente y naviera
 ALTER PROC paGateInListar @parametro VARCHAR(100)
 AS
@@ -239,9 +270,25 @@ VALUES
 (2, 'Pagó trámite y generó factura para cliente Carlos'),
 (1, 'Modificó estado del GateIn HAPAG123 a Pagado');
 
+INSERT INTO SolicitudPago 
+(IdCliente, IdNaviera, NumeroBL, Contenedor, MontoEstimado, TipoCambio, Comision, EstadoG, FechaSolicitud)
+VALUES 
+(1, 1, 'BL10001', 'CONT001', 120.00, 6.90, 10.00, 'Pendiente', GETDATE()),
+(2, 2, 'BL10002', 'CONT002', 150.00, 6.95, 12.00, 'Pendiente', GETDATE()),
+(3, 1, 'BL10003', 'CONT003', 180.00, 6.92, 15.00, 'Cancelado', GETDATE()),
+(4, 3, 'BL10004', 'CONT004', 200.00, 7.00, 18.00, 'Pendiente', GETDATE()),
+(5, 2, 'BL10005', 'CONT005', 250.00, 6.88, 20.00, 'Rechazado', GETDATE());
+
+
+
 SELECT * FROM Usuario;
 SELECT * FROM Cliente;
 SELECT * FROM Naviera;
+SELECT * FROM SolicitudPago;
 SELECT * FROM GateIn;
 SELECT * FROM Factura;
 SELECT * FROM Historial;
+
+UPDATE Usuario
+SET Contrasena = 'hSJTvvrouOauu/yywlFmLs43BBxFF8bueo8LIs33Qtc='
+WHERE NombreUsuario = 'admin';

@@ -60,5 +60,14 @@ namespace CadGatePayNavieras
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<paNavieraListar_Result>("paNavieraListar", parametroParameter);
         }
+    
+        public virtual ObjectResult<paSolicitudPagoListar_Result> paSolicitudPagoListar(string parametro)
+        {
+            var parametroParameter = parametro != null ?
+                new ObjectParameter("parametro", parametro) :
+                new ObjectParameter("parametro", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<paSolicitudPagoListar_Result>("paSolicitudPagoListar", parametroParameter);
+        }
     }
 }

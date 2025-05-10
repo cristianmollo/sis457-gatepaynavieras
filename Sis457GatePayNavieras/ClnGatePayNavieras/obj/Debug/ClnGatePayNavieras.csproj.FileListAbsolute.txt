@@ -10,3 +10,6 @@ D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\ClnGatePayNavieras\obj\Debug\ClnGa
 D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\ClnGatePayNavieras\obj\Debug\ClnGateP.930B4ACA.Up2Date
 D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\ClnGatePayNavieras\obj\Debug\ClnGatePayNavieras.dll
 D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\ClnGatePayNavieras\obj\Debug\ClnGatePayNavieras.pdb
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\ClnGatePayNavieras\bin\Debug\CadGatePayNavieras.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\ClnGatePayNavieras\bin\Debug\CadGatePayNavieras.pdb
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\ClnGatePayNavieras\bin\Debug\CadGatePayNavieras.dll.config

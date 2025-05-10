@@ -139,5 +139,24 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="paSolicitudPagoListar" FunctionName="LabGatePayNavierasModel.Store.paSolicitudPagoListar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LabGatePayNavierasModel.paSolicitudPagoListar_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="IdNaviera" ColumnName="IdNaviera" />
+          <ScalarProperty Name="NombreNaviera" ColumnName="NombreNaviera" />
+          <ScalarProperty Name="NumeroBL" ColumnName="NumeroBL" />
+          <ScalarProperty Name="Contenedor" ColumnName="Contenedor" />
+          <ScalarProperty Name="MontoEstimado" ColumnName="MontoEstimado" />
+          <ScalarProperty Name="TipoCambio" ColumnName="TipoCambio" />
+          <ScalarProperty Name="Comision" ColumnName="Comision" />
+          <ScalarProperty Name="TotalEnBolivianos" ColumnName="TotalEnBolivianos" />
+          <ScalarProperty Name="EstadoG" ColumnName="EstadoG" />
+          <ScalarProperty Name="FechaSolicitud" ColumnName="FechaSolicitud" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

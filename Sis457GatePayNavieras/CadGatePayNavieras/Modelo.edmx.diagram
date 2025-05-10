@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="63a1847f17be497ea023134ec8d7894a" Name="Diagram1" ZoomLevel="97">
+      <Diagram DiagramId="4f20cf80c1ca4f43a460e7723ed6fc45" Name="Diagram1">
         <EntityTypeShape EntityType="LabGatePayNavierasModel.Cliente" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
         <EntityTypeShape EntityType="LabGatePayNavierasModel.Factura" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
         <EntityTypeShape EntityType="LabGatePayNavierasModel.GateIn" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />

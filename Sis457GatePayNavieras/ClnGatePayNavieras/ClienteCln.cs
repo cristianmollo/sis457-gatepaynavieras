@@ -35,8 +35,8 @@ namespace ClnGatePayNavieras
                     existente.Telefono = cliente.Telefono;
                     existente.Email = cliente.Email;
                     existente.TipoCliente = cliente.TipoCliente;
-                    existente.usuarioRegistro = cliente.usuarioRegistro;
-                    existente.fechaRegistro = cliente.fechaRegistro;
+                    //existente.usuarioRegistro = cliente.usuarioRegistro;
+                    //existente.fechaRegistro = cliente.fechaRegistro;
                     existente.estado = cliente.estado;
                     //todo esto es lo musmo decir update cliente set nombre = cliente.nombre, telefono = cliente.telefono, email = cliente.email, tipoCliente = cliente.tipoCliente, usuarioRegistro = cliente.usuarioRegistro, fechaRegistro = cliente.fechaRegistro, estado = cliente.estado where id = cliente.id
                     
@@ -58,5 +58,33 @@ namespace ClnGatePayNavieras
         }
 
         // metodo para encontrar un cliente por id
+        public static Cliente obtenerUno(int id) // recibe de parametro un id
+        { 
+            using (var context = new LabGatePayNavierasEntities()) // crea una instancia de la base de datos
+            {
+                return context.Cliente.Find(id); // busca el cliente por id
+            }
+        }
+
+        // metodo para listar todos los clientes
+        public static List<Cliente> listar()
+        { 
+            using (var context = new LabGatePayNavierasEntities()) // crea una instancia de la base de datos
+            {
+                return context.Cliente.Where(x => x.estado != -1).ToList(); // busca todos los clientes que no esten eliminados
+            }
+        }
+
+        //  metodo ahora pero hicmos con procedimiento almacenado
+        public static List<paClienteListar_Result> listarPa(string parametro)
+        {
+            using (var context = new LabGatePayNavierasEntities()) // crea una instancia de la base de datos
+            {
+                var result = context.paClienteListar(parametro).ToList(); // busca todos los clientes que no esten eliminados
+                Console.WriteLine(result.Count); // O usa el Debugger para revisar el contenido.
+                return result;
+            }
+        }
+
     }
 }

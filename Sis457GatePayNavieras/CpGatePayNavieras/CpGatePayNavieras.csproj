@@ -68,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CRControls\CRTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRControls\CRTextBox.Designer.cs">
+      <DependentUpon>CRTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,12 @@
     <Compile Include="Forms\FrmGateIn.Designer.cs">
       <DependentUpon>FrmGateIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmLoginAnimated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLoginAnimated.Designer.cs">
+      <DependentUpon>FrmLoginAnimated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmNaviera.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeColor.cs" />
+    <Compile Include="Util.cs" />
+    <EmbeddedResource Include="CRControls\CRTextBox.resx">
+      <DependentUpon>CRTextBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMainMenu.resx">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmGateIn.resx">
       <DependentUpon>FrmGateIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLoginAnimated.resx">
+      <DependentUpon>FrmLoginAnimated.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmNaviera.resx">
       <DependentUpon>FrmNaviera.cs</DependentUpon>
@@ -171,6 +190,45 @@
       <Project>{89014bf2-ef83-40c5-9331-e8bad1c06585}</Project>
       <Name>ClnGatePayNavieras</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Digital Data Network Abstract Rotating  Background   V2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caraspafuncio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_24dp_111010_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_open_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

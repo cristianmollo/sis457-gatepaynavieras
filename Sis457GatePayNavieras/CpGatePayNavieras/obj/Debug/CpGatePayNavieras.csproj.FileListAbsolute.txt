@@ -33,3 +33,11 @@ D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\obj\Debug\CpGate
 D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\obj\Debug\CpGatePayNavieras.Forms.FrmSolictudPagoBancoChile.resources
 D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\C1.C1DataExtender.2.dll
 D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\C1.C1DataExtender.2.xml
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\CadGatePayNavieras.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\ClnGatePayNavieras.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\CadGatePayNavieras.pdb
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\CadGatePayNavieras.dll.config
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\ClnGatePayNavieras.pdb
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\bin\Debug\ClnGatePayNavieras.dll.config
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\obj\Debug\CpGatePayNavieras.CRControls.CRTextBox.resources
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CpGatePayNavieras\obj\Debug\CpGatePayNavieras.Forms.FrmLoginAnimated.resources

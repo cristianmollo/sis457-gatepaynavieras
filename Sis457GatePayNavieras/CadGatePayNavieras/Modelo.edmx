@@ -171,6 +171,9 @@
         <Function Name="paNavieraListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="parametro" Type="varchar" Mode="In" />
         </Function>
+        <Function Name="paSolicitudPagoListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="parametro" Type="varchar" Mode="In" />
+        </Function>
         <EntityContainer Name="LabGatePayNavierasModelStoreContainer">
           <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Factura" EntityType="Self.Factura" Schema="dbo" store:Type="Tables" />
@@ -417,6 +420,9 @@
           <FunctionImport Name="paNavieraListar" ReturnType="Collection(LabGatePayNavierasModel.paNavieraListar_Result)">
             <Parameter Name="parametro" Mode="In" Type="String" />
           </FunctionImport>
+          <FunctionImport Name="paSolicitudPagoListar" ReturnType="Collection(LabGatePayNavierasModel.paSolicitudPagoListar_Result)">
+            <Parameter Name="parametro" Mode="In" Type="String" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="paClienteListar_Result">
           <Property Type="Int32" Name="Id" Nullable="false" />
@@ -452,6 +458,21 @@
           <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
           <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
           <Property Type="Int16" Name="estado" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="paSolicitudPagoListar_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="IdCliente" Nullable="false" />
+          <Property Type="String" Name="NombreCliente" Nullable="false" MaxLength="100" />
+          <Property Type="Int32" Name="IdNaviera" Nullable="false" />
+          <Property Type="String" Name="NombreNaviera" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="NumeroBL" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Contenedor" Nullable="true" MaxLength="50" />
+          <Property Type="Decimal" Name="MontoEstimado" Nullable="false" Precision="10" Scale="2" />
+          <Property Type="Decimal" Name="TipoCambio" Nullable="false" Precision="10" Scale="2" />
+          <Property Type="Decimal" Name="Comision" Nullable="false" Precision="10" Scale="2" />
+          <Property Type="Decimal" Name="TotalEnBolivianos" Nullable="true" Precision="22" Scale="4" />
+          <Property Type="String" Name="EstadoG" Nullable="false" MaxLength="20" />
+          <Property Type="DateTime" Name="FechaSolicitud" Nullable="false" Precision="23" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -594,6 +615,25 @@
                 <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
                 <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
                 <ScalarProperty Name="estado" ColumnName="estado" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="paSolicitudPagoListar" FunctionName="LabGatePayNavierasModel.Store.paSolicitudPagoListar">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="LabGatePayNavierasModel.paSolicitudPagoListar_Result">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+                <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+                <ScalarProperty Name="IdNaviera" ColumnName="IdNaviera" />
+                <ScalarProperty Name="NombreNaviera" ColumnName="NombreNaviera" />
+                <ScalarProperty Name="NumeroBL" ColumnName="NumeroBL" />
+                <ScalarProperty Name="Contenedor" ColumnName="Contenedor" />
+                <ScalarProperty Name="MontoEstimado" ColumnName="MontoEstimado" />
+                <ScalarProperty Name="TipoCambio" ColumnName="TipoCambio" />
+                <ScalarProperty Name="Comision" ColumnName="Comision" />
+                <ScalarProperty Name="TotalEnBolivianos" ColumnName="TotalEnBolivianos" />
+                <ScalarProperty Name="EstadoG" ColumnName="EstadoG" />
+                <ScalarProperty Name="FechaSolicitud" ColumnName="FechaSolicitud" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

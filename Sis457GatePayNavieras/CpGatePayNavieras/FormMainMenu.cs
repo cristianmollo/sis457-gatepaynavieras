@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CpGatePayNavieras.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace CpGatePayNavieras
 {
     public partial class FormMainMenu: Form
     {
+        private Forms.FrmLoginAnimated frmLoginAnimed;
         //Fields
         private Button currentButton;
         private Random random;
@@ -19,10 +21,10 @@ namespace CpGatePayNavieras
         private Form activeForm;
 
         //Constructor
-        public FormMainMenu()
+        public FormMainMenu( FrmLoginAnimated frmLoginAnimed)
         {
             InitializeComponent();
-
+            this.frmLoginAnimed = frmLoginAnimed;
         }
 
         //este metodo es cuando le damos play a la aplicacion
@@ -177,6 +179,11 @@ namespace CpGatePayNavieras
         {            
             //ActivateButton(sender);
             OpenChildForm(new Forms.FrmSolictudPagoBancoChile(), sender);
+        }
+
+        private void FormMainMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            frmLoginAnimed.Show(); // Muestra el formulario de inicio de sesión al cerrar el menú principal
         }
     }
 }

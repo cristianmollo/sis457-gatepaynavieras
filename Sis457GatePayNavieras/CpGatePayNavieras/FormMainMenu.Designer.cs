@@ -30,31 +30,31 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainMenu));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panelTitle = new System.Windows.Forms.Panel();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.panelDesktop = new System.Windows.Forms.Panel();
             this.btnSolicitudPagoBanco = new C1.Win.C1Input.C1Button();
             this.btnFactura = new C1.Win.C1Input.C1Button();
             this.btnGateIn = new C1.Win.C1Input.C1Button();
             this.btnSolictudPago = new C1.Win.C1Input.C1Button();
             this.btnNavieras = new C1.Win.C1Input.C1Button();
             this.btnClientes = new C1.Win.C1Input.C1Button();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelTitle = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
-            this.panelLogo.SuspendLayout();
-            this.panelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSolicitudPagoBanco)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFactura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnGateIn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSolictudPago)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNavieras)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClientes)).BeginInit();
+            this.panelLogo.SuspendLayout();
+            this.panelTitle.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(59)))));
             this.panelMenu.Controls.Add(this.btnSolicitudPagoBanco);
             this.panelMenu.Controls.Add(this.btnFactura);
             this.panelMenu.Controls.Add(this.btnGateIn);
@@ -69,9 +69,141 @@
             this.panelMenu.Size = new System.Drawing.Size(220, 542);
             this.panelMenu.TabIndex = 0;
             // 
+            // btnSolicitudPagoBanco
+            // 
+            this.btnSolicitudPagoBanco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(59)))));
+            this.btnSolicitudPagoBanco.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSolicitudPagoBanco.FlatAppearance.BorderSize = 0;
+            this.btnSolicitudPagoBanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSolicitudPagoBanco.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSolicitudPagoBanco.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSolicitudPagoBanco.Image = ((System.Drawing.Image)(resources.GetObject("btnSolicitudPagoBanco.Image")));
+            this.btnSolicitudPagoBanco.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolicitudPagoBanco.Location = new System.Drawing.Point(0, 380);
+            this.btnSolicitudPagoBanco.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSolicitudPagoBanco.Name = "btnSolicitudPagoBanco";
+            this.btnSolicitudPagoBanco.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnSolicitudPagoBanco.Size = new System.Drawing.Size(220, 60);
+            this.btnSolicitudPagoBanco.TabIndex = 6;
+            this.btnSolicitudPagoBanco.Text = "   Solicitud de Pago Banco";
+            this.btnSolicitudPagoBanco.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolicitudPagoBanco.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSolicitudPagoBanco.UseVisualStyleBackColor = false;
+            this.btnSolicitudPagoBanco.Click += new System.EventHandler(this.btnSolicitudPagoBanco_Click);
+            // 
+            // btnFactura
+            // 
+            this.btnFactura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(59)))));
+            this.btnFactura.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFactura.FlatAppearance.BorderSize = 0;
+            this.btnFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFactura.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnFactura.Image = ((System.Drawing.Image)(resources.GetObject("btnFactura.Image")));
+            this.btnFactura.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFactura.Location = new System.Drawing.Point(0, 320);
+            this.btnFactura.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFactura.Name = "btnFactura";
+            this.btnFactura.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnFactura.Size = new System.Drawing.Size(220, 60);
+            this.btnFactura.TabIndex = 5;
+            this.btnFactura.Text = "   Facturas";
+            this.btnFactura.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFactura.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnFactura.UseVisualStyleBackColor = false;
+            this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
+            // 
+            // btnGateIn
+            // 
+            this.btnGateIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(59)))));
+            this.btnGateIn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnGateIn.FlatAppearance.BorderSize = 0;
+            this.btnGateIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGateIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGateIn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnGateIn.Image = ((System.Drawing.Image)(resources.GetObject("btnGateIn.Image")));
+            this.btnGateIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGateIn.Location = new System.Drawing.Point(0, 260);
+            this.btnGateIn.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGateIn.Name = "btnGateIn";
+            this.btnGateIn.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnGateIn.Size = new System.Drawing.Size(220, 60);
+            this.btnGateIn.TabIndex = 4;
+            this.btnGateIn.Text = "   Gate In";
+            this.btnGateIn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGateIn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnGateIn.UseVisualStyleBackColor = false;
+            this.btnGateIn.Click += new System.EventHandler(this.btnGateIn_Click);
+            // 
+            // btnSolictudPago
+            // 
+            this.btnSolictudPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(59)))));
+            this.btnSolictudPago.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSolictudPago.FlatAppearance.BorderSize = 0;
+            this.btnSolictudPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSolictudPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSolictudPago.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSolictudPago.Image = ((System.Drawing.Image)(resources.GetObject("btnSolictudPago.Image")));
+            this.btnSolictudPago.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolictudPago.Location = new System.Drawing.Point(0, 200);
+            this.btnSolictudPago.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSolictudPago.Name = "btnSolictudPago";
+            this.btnSolictudPago.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnSolictudPago.Size = new System.Drawing.Size(220, 60);
+            this.btnSolictudPago.TabIndex = 3;
+            this.btnSolictudPago.Text = "   Solicitudes de Pago";
+            this.btnSolictudPago.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolictudPago.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSolictudPago.UseVisualStyleBackColor = false;
+            this.btnSolictudPago.Click += new System.EventHandler(this.btnSolictudPago_Click);
+            // 
+            // btnNavieras
+            // 
+            this.btnNavieras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(59)))));
+            this.btnNavieras.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNavieras.FlatAppearance.BorderSize = 0;
+            this.btnNavieras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNavieras.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNavieras.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnNavieras.Image = ((System.Drawing.Image)(resources.GetObject("btnNavieras.Image")));
+            this.btnNavieras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNavieras.Location = new System.Drawing.Point(0, 140);
+            this.btnNavieras.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNavieras.Name = "btnNavieras";
+            this.btnNavieras.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnNavieras.Size = new System.Drawing.Size(220, 60);
+            this.btnNavieras.TabIndex = 2;
+            this.btnNavieras.Text = "   Navieras";
+            this.btnNavieras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNavieras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNavieras.UseVisualStyleBackColor = false;
+            this.btnNavieras.Click += new System.EventHandler(this.btnNavieras_Click);
+            // 
+            // btnClientes
+            // 
+            this.btnClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(59)))));
+            this.btnClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClientes.FlatAppearance.BorderSize = 0;
+            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
+            this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClientes.Location = new System.Drawing.Point(0, 80);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnClientes.Size = new System.Drawing.Size(220, 60);
+            this.btnClientes.TabIndex = 1;
+            this.btnClientes.Text = "   Clientes";
+            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
+            // 
             // panelLogo
             // 
-            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
             this.panelLogo.Controls.Add(this.label1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
@@ -95,7 +227,7 @@
             // 
             // panelTitle
             // 
-            this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(208)))), ((int)(((byte)(184)))));
             this.panelTitle.Controls.Add(this.lblTitle);
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitle.Location = new System.Drawing.Point(220, 0);
@@ -119,137 +251,13 @@
             // 
             // panelDesktop
             // 
+            this.panelDesktop.BackgroundImage = global::CpGatePayNavieras.Properties.Resources.caraspafuncio;
+            this.panelDesktop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 80);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(747, 462);
             this.panelDesktop.TabIndex = 2;
-            // 
-            // btnSolicitudPagoBanco
-            // 
-            this.btnSolicitudPagoBanco.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSolicitudPagoBanco.FlatAppearance.BorderSize = 0;
-            this.btnSolicitudPagoBanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSolicitudPagoBanco.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSolicitudPagoBanco.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSolicitudPagoBanco.Image = ((System.Drawing.Image)(resources.GetObject("btnSolicitudPagoBanco.Image")));
-            this.btnSolicitudPagoBanco.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSolicitudPagoBanco.Location = new System.Drawing.Point(0, 380);
-            this.btnSolicitudPagoBanco.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSolicitudPagoBanco.Name = "btnSolicitudPagoBanco";
-            this.btnSolicitudPagoBanco.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
-            this.btnSolicitudPagoBanco.Size = new System.Drawing.Size(220, 60);
-            this.btnSolicitudPagoBanco.TabIndex = 6;
-            this.btnSolicitudPagoBanco.Text = "   Solicitud de Pago Banco";
-            this.btnSolicitudPagoBanco.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSolicitudPagoBanco.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSolicitudPagoBanco.UseVisualStyleBackColor = true;
-            this.btnSolicitudPagoBanco.Click += new System.EventHandler(this.btnSolicitudPagoBanco_Click);
-            // 
-            // btnFactura
-            // 
-            this.btnFactura.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnFactura.FlatAppearance.BorderSize = 0;
-            this.btnFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFactura.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnFactura.Image = ((System.Drawing.Image)(resources.GetObject("btnFactura.Image")));
-            this.btnFactura.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFactura.Location = new System.Drawing.Point(0, 320);
-            this.btnFactura.Margin = new System.Windows.Forms.Padding(4);
-            this.btnFactura.Name = "btnFactura";
-            this.btnFactura.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
-            this.btnFactura.Size = new System.Drawing.Size(220, 60);
-            this.btnFactura.TabIndex = 5;
-            this.btnFactura.Text = "   Facturas";
-            this.btnFactura.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFactura.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnFactura.UseVisualStyleBackColor = true;
-            this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
-            // 
-            // btnGateIn
-            // 
-            this.btnGateIn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnGateIn.FlatAppearance.BorderSize = 0;
-            this.btnGateIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGateIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGateIn.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnGateIn.Image = ((System.Drawing.Image)(resources.GetObject("btnGateIn.Image")));
-            this.btnGateIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGateIn.Location = new System.Drawing.Point(0, 260);
-            this.btnGateIn.Margin = new System.Windows.Forms.Padding(4);
-            this.btnGateIn.Name = "btnGateIn";
-            this.btnGateIn.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
-            this.btnGateIn.Size = new System.Drawing.Size(220, 60);
-            this.btnGateIn.TabIndex = 4;
-            this.btnGateIn.Text = "   Gate In";
-            this.btnGateIn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGateIn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnGateIn.UseVisualStyleBackColor = true;
-            this.btnGateIn.Click += new System.EventHandler(this.btnGateIn_Click);
-            // 
-            // btnSolictudPago
-            // 
-            this.btnSolictudPago.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSolictudPago.FlatAppearance.BorderSize = 0;
-            this.btnSolictudPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSolictudPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSolictudPago.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSolictudPago.Image = ((System.Drawing.Image)(resources.GetObject("btnSolictudPago.Image")));
-            this.btnSolictudPago.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSolictudPago.Location = new System.Drawing.Point(0, 200);
-            this.btnSolictudPago.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSolictudPago.Name = "btnSolictudPago";
-            this.btnSolictudPago.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
-            this.btnSolictudPago.Size = new System.Drawing.Size(220, 60);
-            this.btnSolictudPago.TabIndex = 3;
-            this.btnSolictudPago.Text = "   Solicitudes de Pago";
-            this.btnSolictudPago.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSolictudPago.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSolictudPago.UseVisualStyleBackColor = true;
-            this.btnSolictudPago.Click += new System.EventHandler(this.btnSolictudPago_Click);
-            // 
-            // btnNavieras
-            // 
-            this.btnNavieras.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNavieras.FlatAppearance.BorderSize = 0;
-            this.btnNavieras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNavieras.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNavieras.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnNavieras.Image = ((System.Drawing.Image)(resources.GetObject("btnNavieras.Image")));
-            this.btnNavieras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNavieras.Location = new System.Drawing.Point(0, 140);
-            this.btnNavieras.Margin = new System.Windows.Forms.Padding(4);
-            this.btnNavieras.Name = "btnNavieras";
-            this.btnNavieras.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
-            this.btnNavieras.Size = new System.Drawing.Size(220, 60);
-            this.btnNavieras.TabIndex = 2;
-            this.btnNavieras.Text = "   Navieras";
-            this.btnNavieras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNavieras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNavieras.UseVisualStyleBackColor = true;
-            this.btnNavieras.Click += new System.EventHandler(this.btnNavieras_Click);
-            // 
-            // btnClientes
-            // 
-            this.btnClientes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnClientes.FlatAppearance.BorderSize = 0;
-            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
-            this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(0, 80);
-            this.btnClientes.Margin = new System.Windows.Forms.Padding(4);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
-            this.btnClientes.Size = new System.Drawing.Size(220, 60);
-            this.btnClientes.TabIndex = 1;
-            this.btnClientes.Text = "   Clientes";
-            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnClientes.UseVisualStyleBackColor = true;
-            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // FormMainMenu
             // 
@@ -262,18 +270,19 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormMainMenu";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMainMenu_FormClosing);
             this.Load += new System.EventHandler(this.FormMainMenu_Load);
             this.panelMenu.ResumeLayout(false);
-            this.panelLogo.ResumeLayout(false);
-            this.panelLogo.PerformLayout();
-            this.panelTitle.ResumeLayout(false);
-            this.panelTitle.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSolicitudPagoBanco)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFactura)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnGateIn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSolictudPago)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNavieras)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClientes)).EndInit();
+            this.panelLogo.ResumeLayout(false);
+            this.panelLogo.PerformLayout();
+            this.panelTitle.ResumeLayout(false);
+            this.panelTitle.PerformLayout();
             this.ResumeLayout(false);
 
         }
