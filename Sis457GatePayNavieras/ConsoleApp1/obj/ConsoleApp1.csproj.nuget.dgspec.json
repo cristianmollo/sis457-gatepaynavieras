@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ConsoleApp1\\ConsoleApp1.csproj": {}
+  },
+  "projects": {
+    "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\CadGatePayNavieras.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\CadGatePayNavieras.csproj",
+        "projectName": "CadGatePayNavieras",
+        "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\CadGatePayNavieras.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\ClnGatePayNavieras.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\ClnGatePayNavieras.csproj",
+        "projectName": "ClnGatePayNavieras",
+        "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\ClnGatePayNavieras.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\CadGatePayNavieras.csproj": {
+                "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\CadGatePayNavieras.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ConsoleApp1\\ConsoleApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ConsoleApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\CpGatePayNavieras.csproj": {
+                "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\CpGatePayNavieras.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\CpGatePayNavieras.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\CpGatePayNavieras.csproj",
+        "projectName": "CpGatePayNavieras",
+        "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CpGatePayNavieras\\CpGatePayNavieras.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\CadGatePayNavieras.csproj": {
+                "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\CadGatePayNavieras\\CadGatePayNavieras.csproj"
+              },
+              "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\ClnGatePayNavieras.csproj": {
+                "projectPath": "D:\\Proyecto_SIS457_2025\\Sis457GatePayNavieras\\ClnGatePayNavieras\\ClnGatePayNavieras.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
