@@ -11,7 +11,6 @@
 - Registro y control de facturas descargadas desde plataformas de navieras.
 - Historial de pagos y estados.
 - Control de envíos de facturas a los clientes.
-- Automatización de descarga de facturas usando Selenium.
   
 ---
 
