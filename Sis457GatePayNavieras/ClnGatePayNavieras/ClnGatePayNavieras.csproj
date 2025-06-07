@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="ClienteCln.cs" />
+    <Compile Include="GateInCln.cs" />
     <Compile Include="NavieraCln.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolicitudPagoCln.cs" />

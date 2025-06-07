@@ -35,6 +35,7 @@
             this.lblNaviera = new System.Windows.Forms.Label();
             this.erpTelefono = new System.Windows.Forms.ErrorProvider(this.components);
             this.clienteDetalle = new System.Windows.Forms.TabPage();
+            this.crTextBox1 = new CpGatePayNavieras.CRControls.CRTextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -54,7 +55,6 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.dgvCliente = new System.Windows.Forms.DataGridView();
-            this.crTextBox1 = new CpGatePayNavieras.CRControls.CRTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.erpTipoCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).BeginInit();
             this.panel1.SuspendLayout();
@@ -117,6 +117,26 @@
             this.clienteDetalle.Size = new System.Drawing.Size(724, 345);
             this.clienteDetalle.TabIndex = 1;
             this.clienteDetalle.Text = "tabPage2";
+            // 
+            // crTextBox1
+            // 
+            this.crTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.crTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(204)))), ((int)(((byte)(220)))));
+            this.crTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.crTextBox1.BorderRadius = 0;
+            this.crTextBox1.BorderSize = 2;
+            this.crTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.crTextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.crTextBox1.Location = new System.Drawing.Point(37, 49);
+            this.crTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.crTextBox1.Multiline = false;
+            this.crTextBox1.Name = "crTextBox1";
+            this.crTextBox1.Padding = new System.Windows.Forms.Padding(7);
+            this.crTextBox1.PasswordChar = false;
+            this.crTextBox1.Size = new System.Drawing.Size(194, 31);
+            this.crTextBox1.TabIndex = 26;
+            this.crTextBox1.Texts = "";
+            this.crTextBox1.UnderlinedStyle = false;
             // 
             // txtEmail
             // 
@@ -352,26 +372,6 @@
             this.dgvCliente.Size = new System.Drawing.Size(602, 275);
             this.dgvCliente.TabIndex = 3;
             // 
-            // crTextBox1
-            // 
-            this.crTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.crTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(204)))), ((int)(((byte)(220)))));
-            this.crTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.crTextBox1.BorderRadius = 0;
-            this.crTextBox1.BorderSize = 2;
-            this.crTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.crTextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.crTextBox1.Location = new System.Drawing.Point(37, 49);
-            this.crTextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.crTextBox1.Multiline = false;
-            this.crTextBox1.Name = "crTextBox1";
-            this.crTextBox1.Padding = new System.Windows.Forms.Padding(7);
-            this.crTextBox1.PasswordChar = false;
-            this.crTextBox1.Size = new System.Drawing.Size(194, 31);
-            this.crTextBox1.TabIndex = 26;
-            this.crTextBox1.Texts = "";
-            this.crTextBox1.UnderlinedStyle = false;
-            // 
             // FrmNaviera
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -381,7 +381,7 @@
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmNaviera";
-            this.Text = "FrmNaviera";
+            this.Text = "Navieras";
             ((System.ComponentModel.ISupportInitialize)(this.erpTipoCliente)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).EndInit();
             this.panel1.ResumeLayout(false);

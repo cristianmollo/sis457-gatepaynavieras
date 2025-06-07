@@ -37,10 +37,10 @@
             this.btnNavieras = new C1.Win.C1Input.C1Button();
             this.btnClientes = new C1.Win.C1Input.C1Button();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelTitle = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktop = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSolicitudPagoBanco)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFactura)).BeginInit();
@@ -50,6 +50,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnClientes)).BeginInit();
             this.panelLogo.SuspendLayout();
             this.panelTitle.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -66,7 +67,7 @@
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(220, 542);
+            this.panelMenu.Size = new System.Drawing.Size(220, 564);
             this.panelMenu.TabIndex = 0;
             // 
             // btnSolicitudPagoBanco
@@ -204,26 +205,13 @@
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
-            this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(220, 80);
             this.panelLogo.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
             // 
             // panelTitle
             // 
@@ -233,21 +221,20 @@
             this.panelTitle.Location = new System.Drawing.Point(220, 0);
             this.panelTitle.Margin = new System.Windows.Forms.Padding(4);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(747, 80);
+            this.panelTitle.Size = new System.Drawing.Size(681, 80);
             this.panelTitle.TabIndex = 1;
             // 
             // lblTitle
             // 
-            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Montserrat Subrayada", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(320, 20);
+            this.lblTitle.Location = new System.Drawing.Point(265, 22);
             this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(117, 27);
+            this.lblTitle.Size = new System.Drawing.Size(168, 39);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "PINCIPAL";
+            this.lblTitle.Text = "PRINCIPAL";
             // 
             // panelDesktop
             // 
@@ -256,20 +243,31 @@
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 80);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(747, 462);
+            this.panelDesktop.Size = new System.Drawing.Size(681, 484);
             this.panelDesktop.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(214, 74);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // FormMainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 542);
+            this.ClientSize = new System.Drawing.Size(901, 564);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelMenu);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormMainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMainMenu_FormClosing);
             this.Load += new System.EventHandler(this.FormMainMenu_Load);
             this.panelMenu.ResumeLayout(false);
@@ -280,9 +278,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnNavieras)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClientes)).EndInit();
             this.panelLogo.ResumeLayout(false);
-            this.panelLogo.PerformLayout();
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -299,8 +297,8 @@
         private C1.Win.C1Input.C1Button btnNavieras;
         private System.Windows.Forms.Panel panelTitle;
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelDesktop;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -40,7 +40,7 @@
     <Property Name="FechaPago" Type="datetime" Nullable="false" />
     <Property Name="IdUsuario" Type="int" Nullable="false" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="fechaRegistro" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
     <Property Name="estado" Type="smallint" Nullable="false" />
   </EntityType>
   <EntityType Name="Naviera">

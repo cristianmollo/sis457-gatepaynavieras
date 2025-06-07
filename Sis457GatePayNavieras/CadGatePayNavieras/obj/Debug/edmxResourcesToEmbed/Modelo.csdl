@@ -43,7 +43,7 @@
     <Property Name="FechaPago" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="IdUsuario" Type="Int32" Nullable="false" />
     <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
     <Property Name="estado" Type="Int16" Nullable="false" />
     <NavigationProperty Name="Cliente" Relationship="Self.fk_GateIn_Cliente" FromRole="GateIn" ToRole="Cliente" />
     <NavigationProperty Name="Factura" Relationship="Self.fk_Factura_GateIn" FromRole="GateIn" ToRole="Factura" />

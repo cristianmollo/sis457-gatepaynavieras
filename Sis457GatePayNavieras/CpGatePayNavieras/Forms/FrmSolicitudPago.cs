@@ -272,5 +272,16 @@ namespace CpGatePayNavieras.Forms
                 MessageBox.Show("Solicitud de pago eliminada correctamente", "::: Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close(); // Cierra el formulario actual
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = SolicitudLista; // Cambia a la pestaña de lista
+            limpiar(); // Limpia los campos del formulario
+        }
     }
 }

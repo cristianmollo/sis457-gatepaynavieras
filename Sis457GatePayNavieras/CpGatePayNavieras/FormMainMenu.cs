@@ -25,6 +25,9 @@ namespace CpGatePayNavieras
         {
             InitializeComponent();
             this.frmLoginAnimed = frmLoginAnimed;
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.Size = new Size(1000, 520); // Ancho x Alto
+            this.MinimumSize = new Size(1000, 650); // Evita que se haga muy pequeño
         }
 
         //este metodo es cuando le damos play a la aplicacion

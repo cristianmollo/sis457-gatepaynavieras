@@ -29,40 +29,58 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCliente));
             this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.dgvCliente = new System.Windows.Forms.DataGridView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.ClienteLista = new System.Windows.Forms.TabPage();
             this.lblBuscarCliente = new System.Windows.Forms.Label();
-            this.btnCerrar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             this.clienteDetalle = new System.Windows.Forms.TabPage();
-            this.crTextBox1 = new CpGatePayNavieras.CRControls.CRTextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnGuardar = new System.Windows.Forms.Button();
-            this.cbxTipoCliente = new System.Windows.Forms.ComboBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.lblTipoCliente = new System.Windows.Forms.Label();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.cbxTipoCliente = new System.Windows.Forms.ComboBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.lblTelefono = new System.Windows.Forms.Label();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.lblCliente = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.erpNombre = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpTelefono = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpTipoCliente = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.crTextBox1 = new CpGatePayNavieras.CRControls.CRTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.ClienteLista.SuspendLayout();
             this.clienteDetalle.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpTelefono)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpTipoCliente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // txtBuscar
@@ -77,20 +95,6 @@
             this.txtBuscar.Size = new System.Drawing.Size(499, 20);
             this.txtBuscar.TabIndex = 1;
             this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnBuscar.BackColor = System.Drawing.Color.LightBlue;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnBuscar.Location = new System.Drawing.Point(508, 19);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(100, 30);
-            this.btnBuscar.TabIndex = 2;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = false;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // dgvCliente
             // 
@@ -141,84 +145,19 @@
             // lblBuscarCliente
             // 
             this.lblBuscarCliente.AutoSize = true;
+            this.lblBuscarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblBuscarCliente.ForeColor = System.Drawing.SystemColors.Control;
             this.lblBuscarCliente.Location = new System.Drawing.Point(7, 7);
             this.lblBuscarCliente.Name = "lblBuscarCliente";
-            this.lblBuscarCliente.Size = new System.Drawing.Size(75, 13);
+            this.lblBuscarCliente.Size = new System.Drawing.Size(112, 20);
             this.lblBuscarCliente.TabIndex = 15;
             this.lblBuscarCliente.Text = "Buscar Cliente";
             // 
-            // btnCerrar
-            // 
-            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrar.BackColor = System.Drawing.Color.DarkGray;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.ForeColor = System.Drawing.Color.Black;
-            this.btnCerrar.Location = new System.Drawing.Point(619, 187);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(20, 3, 0, 0);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(100, 40);
-            this.btnCerrar.TabIndex = 12;
-            this.btnCerrar.Text = "Cerrar";
-            this.btnCerrar.UseVisualStyleBackColor = false;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(114)))), ((int)(((byte)(161)))));
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.ForeColor = System.Drawing.Color.Black;
-            this.btnEliminar.Location = new System.Drawing.Point(619, 133);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(20, 3, 20, 0);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(100, 40);
-            this.btnEliminar.TabIndex = 13;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = false;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(114)))), ((int)(((byte)(161)))));
-            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditar.ForeColor = System.Drawing.Color.Black;
-            this.btnEditar.Location = new System.Drawing.Point(619, 74);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(20, 3, 20, 0);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(100, 40);
-            this.btnEditar.TabIndex = 14;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = false;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(114)))), ((int)(((byte)(161)))));
-            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevo.ForeColor = System.Drawing.Color.Black;
-            this.btnNuevo.Location = new System.Drawing.Point(619, 19);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(0);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(100, 40);
-            this.btnNuevo.TabIndex = 11;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = false;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
             // clienteDetalle
             // 
-            this.clienteDetalle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(35)))), ((int)(((byte)(66)))));
-            this.clienteDetalle.Controls.Add(this.crTextBox1);
-            this.clienteDetalle.Controls.Add(this.txtEmail);
-            this.clienteDetalle.Controls.Add(this.lblEmail);
-            this.clienteDetalle.Controls.Add(this.btnCancelar);
-            this.clienteDetalle.Controls.Add(this.btnGuardar);
-            this.clienteDetalle.Controls.Add(this.cbxTipoCliente);
-            this.clienteDetalle.Controls.Add(this.lblTipoCliente);
-            this.clienteDetalle.Controls.Add(this.txtTelefono);
-            this.clienteDetalle.Controls.Add(this.lblTelefono);
-            this.clienteDetalle.Controls.Add(this.lblNombre);
+            this.clienteDetalle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(132)))), ((int)(((byte)(162)))));
+            this.clienteDetalle.Controls.Add(this.tableLayoutPanel2);
+            this.clienteDetalle.Controls.Add(this.tableLayoutPanel1);
             this.clienteDetalle.Location = new System.Drawing.Point(4, 22);
             this.clienteDetalle.Name = "clienteDetalle";
             this.clienteDetalle.Padding = new System.Windows.Forms.Padding(3);
@@ -226,71 +165,86 @@
             this.clienteDetalle.TabIndex = 1;
             this.clienteDetalle.Text = "tabPage2";
             // 
-            // crTextBox1
+            // tableLayoutPanel2
             // 
-            this.crTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.crTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(204)))), ((int)(((byte)(220)))));
-            this.crTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.crTextBox1.BorderRadius = 0;
-            this.crTextBox1.BorderSize = 2;
-            this.crTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.crTextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.crTextBox1.Location = new System.Drawing.Point(37, 49);
-            this.crTextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.crTextBox1.Multiline = false;
-            this.crTextBox1.Name = "crTextBox1";
-            this.crTextBox1.Padding = new System.Windows.Forms.Padding(7);
-            this.crTextBox1.PasswordChar = false;
-            this.crTextBox1.Size = new System.Drawing.Size(194, 31);
-            this.crTextBox1.TabIndex = 26;
-            this.crTextBox1.Texts = "";
-            this.crTextBox1.UnderlinedStyle = false;
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.btnGuardar, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnCancelar, 1, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(77, 201);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(568, 51);
+            this.tableLayoutPanel2.TabIndex = 28;
             // 
-            // txtEmail
+            // tableLayoutPanel1
             // 
-            this.txtEmail.Location = new System.Drawing.Point(303, 121);
-            this.txtEmail.MaxLength = 250;
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(194, 20);
-            this.txtEmail.TabIndex = 25;
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.panel3, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel5, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(77, 44);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(568, 128);
+            this.tableLayoutPanel1.TabIndex = 27;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.lblEmail);
+            this.panel3.Controls.Add(this.txtEmail);
+            this.panel3.Location = new System.Drawing.Point(287, 67);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(235, 53);
+            this.panel3.TabIndex = 28;
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(300, 89);
+            this.lblEmail.Location = new System.Drawing.Point(3, 11);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(35, 13);
             this.lblEmail.TabIndex = 24;
             this.lblEmail.Text = "Email:";
             // 
-            // btnCancelar
+            // txtEmail
             // 
-            this.btnCancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(53)))), ((int)(((byte)(69)))));
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(316, 175);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnCancelar.Size = new System.Drawing.Size(111, 40);
-            this.btnCancelar.TabIndex = 23;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            this.txtEmail.Location = new System.Drawing.Point(6, 26);
+            this.txtEmail.MaxLength = 250;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(194, 20);
+            this.txtEmail.TabIndex = 25;
             // 
-            // btnGuardar
+            // panel4
             // 
-            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
-            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(126, 175);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnGuardar.Size = new System.Drawing.Size(105, 40);
-            this.btnGuardar.TabIndex = 22;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            this.panel4.Controls.Add(this.lblTipoCliente);
+            this.panel4.Controls.Add(this.cbxTipoCliente);
+            this.panel4.Location = new System.Drawing.Point(3, 67);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(230, 51);
+            this.panel4.TabIndex = 29;
+            // 
+            // lblTipoCliente
+            // 
+            this.lblTipoCliente.AutoSize = true;
+            this.lblTipoCliente.Location = new System.Drawing.Point(3, 11);
+            this.lblTipoCliente.Name = "lblTipoCliente";
+            this.lblTipoCliente.Size = new System.Drawing.Size(81, 13);
+            this.lblTipoCliente.TabIndex = 16;
+            this.lblTipoCliente.Text = "Tipo de Cliente:";
             // 
             // cbxTipoCliente
             // 
@@ -304,61 +258,60 @@
             "Importadora",
             "Representante",
             ""});
-            this.cbxTipoCliente.Location = new System.Drawing.Point(303, 49);
+            this.cbxTipoCliente.Location = new System.Drawing.Point(20, 27);
             this.cbxTipoCliente.Name = "cbxTipoCliente";
             this.cbxTipoCliente.Size = new System.Drawing.Size(194, 21);
             this.cbxTipoCliente.TabIndex = 17;
             // 
-            // lblTipoCliente
+            // panel5
             // 
-            this.lblTipoCliente.AutoSize = true;
-            this.lblTipoCliente.Location = new System.Drawing.Point(300, 33);
-            this.lblTipoCliente.Name = "lblTipoCliente";
-            this.lblTipoCliente.Size = new System.Drawing.Size(81, 13);
-            this.lblTipoCliente.TabIndex = 16;
-            this.lblTipoCliente.Text = "Tipo de Cliente:";
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Location = new System.Drawing.Point(37, 121);
-            this.txtTelefono.MaxLength = 250;
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(194, 20);
-            this.txtTelefono.TabIndex = 15;
+            this.panel5.Controls.Add(this.lblTelefono);
+            this.panel5.Controls.Add(this.txtTelefono);
+            this.panel5.Location = new System.Drawing.Point(287, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(235, 58);
+            this.panel5.TabIndex = 29;
             // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(34, 89);
+            this.lblTelefono.Location = new System.Drawing.Point(3, 0);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(52, 13);
             this.lblTelefono.TabIndex = 14;
             this.lblTelefono.Text = "Teléfono:";
             // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(6, 17);
+            this.txtTelefono.MaxLength = 250;
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(194, 20);
+            this.txtTelefono.TabIndex = 15;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.lblNombre);
+            this.panel2.Controls.Add(this.crTextBox1);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(230, 58);
+            this.panel2.TabIndex = 28;
+            // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(34, 33);
+            this.lblNombre.Location = new System.Drawing.Point(3, 0);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(47, 13);
             this.lblNombre.TabIndex = 12;
             this.lblNombre.Text = "Nombre:";
             // 
-            // lblCliente
-            // 
-            this.lblCliente.AutoSize = true;
-            this.lblCliente.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.lblCliente.Location = new System.Drawing.Point(12, 9);
-            this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(137, 45);
-            this.lblCliente.TabIndex = 0;
-            this.lblCliente.Text = "Clientes";
-            this.lblCliente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.lblCliente);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -376,6 +329,188 @@
             // erpTipoCliente
             // 
             this.erpTipoCliente.ContainerControl = this;
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCerrar.BackColor = System.Drawing.Color.DarkGray;
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnCerrar.ForeColor = System.Drawing.Color.Black;
+            this.btnCerrar.Image = global::CpGatePayNavieras.Properties.Resources.cerrar;
+            this.btnCerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrar.Location = new System.Drawing.Point(619, 187);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(20, 3, 0, 0);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.btnCerrar.Size = new System.Drawing.Size(100, 40);
+            this.btnCerrar.TabIndex = 12;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(114)))), ((int)(((byte)(161)))));
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnEliminar.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminar.Image = global::CpGatePayNavieras.Properties.Resources.eliminar;
+            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminar.Location = new System.Drawing.Point(619, 133);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(20, 3, 20, 0);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.btnEliminar.Size = new System.Drawing.Size(100, 40);
+            this.btnEliminar.TabIndex = 13;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(114)))), ((int)(((byte)(161)))));
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnEditar.ForeColor = System.Drawing.Color.Black;
+            this.btnEditar.Image = global::CpGatePayNavieras.Properties.Resources.editar;
+            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditar.Location = new System.Drawing.Point(619, 74);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(20, 3, 20, 0);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.btnEditar.Size = new System.Drawing.Size(100, 40);
+            this.btnEditar.TabIndex = 14;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(114)))), ((int)(((byte)(161)))));
+            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevo.ForeColor = System.Drawing.Color.Black;
+            this.btnNuevo.Image = global::CpGatePayNavieras.Properties.Resources.nuevo1;
+            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNuevo.Location = new System.Drawing.Point(619, 19);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(0);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.btnNuevo.Size = new System.Drawing.Size(100, 40);
+            this.btnNuevo.TabIndex = 11;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnNuevo.UseVisualStyleBackColor = false;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBuscar.BackColor = System.Drawing.Color.LightBlue;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnBuscar.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnBuscar.Image = global::CpGatePayNavieras.Properties.Resources.buscar;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscar.Location = new System.Drawing.Point(508, 19);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.btnBuscar.Size = new System.Drawing.Size(100, 30);
+            this.btnBuscar.TabIndex = 2;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.btnGuardar.Image = global::CpGatePayNavieras.Properties.Resources.guardar;
+            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuardar.Location = new System.Drawing.Point(176, 8);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.btnGuardar.Size = new System.Drawing.Size(105, 40);
+            this.btnGuardar.TabIndex = 22;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(53)))), ((int)(((byte)(69)))));
+            this.btnCancelar.Image = global::CpGatePayNavieras.Properties.Resources.cancelar;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.Location = new System.Drawing.Point(287, 8);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.btnCancelar.Size = new System.Drawing.Size(111, 40);
+            this.btnCancelar.TabIndex = 23;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // crTextBox1
+            // 
+            this.crTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.crTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(204)))), ((int)(((byte)(220)))));
+            this.crTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.crTextBox1.BorderRadius = 0;
+            this.crTextBox1.BorderSize = 2;
+            this.crTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.crTextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.crTextBox1.Location = new System.Drawing.Point(20, 17);
+            this.crTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.crTextBox1.Multiline = false;
+            this.crTextBox1.Name = "crTextBox1";
+            this.crTextBox1.Padding = new System.Windows.Forms.Padding(7);
+            this.crTextBox1.PasswordChar = false;
+            this.crTextBox1.Size = new System.Drawing.Size(194, 31);
+            this.crTextBox1.TabIndex = 26;
+            this.crTextBox1.Texts = "";
+            this.crTextBox1.UnderlinedStyle = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(15, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(121, 11);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(227, 11);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(119, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
             // 
             // FrmCliente
             // 
@@ -397,12 +532,23 @@
             this.ClienteLista.ResumeLayout(false);
             this.ClienteLista.PerformLayout();
             this.clienteDetalle.ResumeLayout(false);
-            this.clienteDetalle.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpTelefono)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpTipoCliente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -414,7 +560,6 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage ClienteLista;
         private System.Windows.Forms.TabPage clienteDetalle;
-        private System.Windows.Forms.Label lblCliente;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;
@@ -434,5 +579,14 @@
         private System.Windows.Forms.ErrorProvider erpTipoCliente;
         private System.Windows.Forms.Label lblBuscarCliente;
         private CRControls.CRTextBox crTextBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

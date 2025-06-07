@@ -282,5 +282,10 @@ namespace CpGatePayNavieras.Forms
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close(); // Cierra el formulario actual
+        }
     }
 }
