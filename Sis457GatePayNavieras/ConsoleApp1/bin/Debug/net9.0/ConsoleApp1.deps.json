@@ -1,0 +1,124 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "CpGatePayNavieras": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "CadGatePayNavieras/1.0.0": {
+        "runtime": {
+          "CadGatePayNavieras.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ClnGatePayNavieras/1.0.0": {
+        "dependencies": {
+          "CadGatePayNavieras": "1.0.0"
+        },
+        "runtime": {
+          "ClnGatePayNavieras.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CpGatePayNavieras/1.0.0": {
+        "dependencies": {
+          "CadGatePayNavieras": "1.0.0",
+          "ClnGatePayNavieras": "1.0.0"
+        },
+        "runtime": {
+          "CpGatePayNavieras.exe": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "C1.Win.C1Input.2/2.0.20193.393": {
+        "runtime": {
+          "C1.Win.C1Input.2.dll": {
+            "assemblyVersion": "2.0.20193.393",
+            "fileVersion": "2.0.20193.393"
+          }
+        }
+      },
+      "EntityFramework/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.500.124.31603"
+          }
+        }
+      },
+      "C1.Win.2/2.0.20193.393": {
+        "runtime": {
+          "C1.Win.2.dll": {
+            "assemblyVersion": "2.0.20193.393",
+            "fileVersion": "2.0.20193.393"
+          }
+        }
+      },
+      "C1.Win.C1Command.2/2.0.20193.393": {
+        "runtime": {
+          "C1.Win.C1Command.2.dll": {
+            "assemblyVersion": "2.0.20193.393",
+            "fileVersion": "2.0.20193.393"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CadGatePayNavieras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClnGatePayNavieras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CpGatePayNavieras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.Win.C1Input.2/2.0.20193.393": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.Win.2/2.0.20193.393": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.Win.C1Command.2/2.0.20193.393": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
