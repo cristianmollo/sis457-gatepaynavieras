@@ -1,0 +1,108 @@
+﻿@model FinalGatePayNavieras.Models.SolicitudPago
+
+@{
+    ViewData["Title"] = "Editar Solicitud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-body px-5 py-4">
+            <h2 class="mb-4 text-primary"><i class="bi bi-pencil-square me-2"></i>Editar Solicitud de Pago</h2>
+
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label asp-for="IdCliente" class="form-label fw-semibold">Cliente</label>
+                        <select asp-for="IdCliente" class="form-select" asp-items="ViewBag.IdCliente"></select>
+                        <span asp-validation-for="IdCliente" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="IdNaviera" class="form-label fw-semibold">Naviera</label>
+                        <select asp-for="IdNaviera" class="form-select" asp-items="ViewBag.IdNaviera"></select>
+                        <span asp-validation-for="IdNaviera" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="NumeroBl" class="form-label fw-semibold">Número BL</label>
+                        <input asp-for="NumeroBl" class="form-control" />
+                        <span asp-validation-for="NumeroBl" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Contenedor" class="form-label fw-semibold">Contenedor</label>
+                        <input asp-for="Contenedor" class="form-control" />
+                        <span asp-validation-for="Contenedor" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="MontoEstimado" class="form-label fw-semibold">Monto Estimado</label>
+                        <input asp-for="MontoEstimado" class="form-control" />
+                        <span asp-validation-for="MontoEstimado" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="TipoCambio" class="form-label fw-semibold">Tipo de Cambio</label>
+                        <input asp-for="TipoCambio" class="form-control" />
+                        <span asp-validation-for="TipoCambio" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="Comision" class="form-label fw-semibold">Comisión (%)</label>
+                        <input asp-for="Comision" class="form-control" />
+                        <span asp-validation-for="Comision" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="EstadoG" class="form-label fw-semibold">Estado General</label>
+                        <input asp-for="EstadoG" class="form-control" />
+                        <span asp-validation-for="EstadoG" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="FechaSolicitud" class="form-label fw-semibold">Fecha de Solicitud</label>
+                        <input asp-for="FechaSolicitud" class="form-control" />
+                        <span asp-validation-for="FechaSolicitud" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="UsuarioRegistro" class="form-label fw-semibold">Registrado Por</label>
+                        <input asp-for="UsuarioRegistro" class="form-control" />
+                        <span asp-validation-for="UsuarioRegistro" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="FechaRegistro" class="form-label fw-semibold">Fecha de Registro</label>
+                        <input asp-for="FechaRegistro" class="form-control" />
+                        <span asp-validation-for="FechaRegistro" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Estado" class="form-label fw-semibold">Estado</label>
+                        <input asp-for="Estado" class="form-control" />
+                        <span asp-validation-for="Estado" class="text-danger small"></span>
+                    </div>
+                </div>
+
+                <div class="mt-4 d-flex justify-content-start gap-3">
+                    <button type="submit" class="btn btn-success btn-lg">
+                        <i class="bi bi-save2-fill me-1"></i>Guardar Cambios
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg">
+                        <i class="bi bi-arrow-left-circle me-1"></i>Volver a la lista
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,68 @@
+﻿@model FinalGatePayNavieras.Models.Cliente
+
+@{
+    ViewData["Title"] = "Eliminar Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow border-0">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0"><i class="bi bi-exclamation-triangle-fill"></i> Confirmar Eliminación</h4>
+                </div>
+                <div class="card-body">
+                    <p class="fw-bold mb-4 text-center text-danger">¿Estás seguro que deseas eliminar este cliente? Esta acción no se puede deshacer.</p>
+
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th>Nombre</th>
+                                <td>@Model.Nombre</td>
+                            </tr>
+                            <tr>
+                                <th>Teléfono</th>
+                                <td>@Model.Telefono</td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <td>@Model.Email</td>
+                            </tr>
+                            <tr>
+                                <th>Tipo de Cliente</th>
+                                <td>@Model.TipoCliente</td>
+                            </tr>
+                            <tr>
+                                <th>Usuario Registro</th>
+                                <td>@Model.UsuarioRegistro</td>
+                            </tr>
+                            <tr>
+                                <th>Fecha de Registro</th>
+                                <td>@Model.FechaRegistro.ToString("dd/MM/yyyy")</td>
+                            </tr>
+                            <tr>
+                                <th>Estado</th>
+                                <td>@Model.Estado</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left-circle"></i> Cancelar
+                            </a>
+
+                            <button type="submit" class="btn btn-danger">
+                                <i class="bi bi-trash-fill"></i> Eliminar Cliente
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

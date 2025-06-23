@@ -1,0 +1,71 @@
+﻿@model FinalGatePayNavieras.Models.GateIn
+
+@{
+    ViewData["Title"] = "Nuevo Gate In";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">Registrar Gate In</h4>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="row g-3">
+
+                    <div class="col-md-4">
+                        <label asp-for="IdCliente" class="form-label">Cliente</label>
+                        <select asp-for="IdCliente" class="form-select" asp-items="ViewBag.IdCliente"></select>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="IdNaviera" class="form-label">Naviera</label>
+                        <select asp-for="IdNaviera" class="form-select" asp-items="ViewBag.IdNaviera"></select>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="NumeroBl" class="form-label">Número BL</label>
+                        <input asp-for="NumeroBl" class="form-control" />
+                        <span asp-validation-for="NumeroBl" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Contenedor" class="form-label">Contenedor</label>
+                        <input asp-for="Contenedor" class="form-control" />
+                        <span asp-validation-for="Contenedor" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="MontoPago" class="form-label">Monto de Pago</label>
+                        <input asp-for="MontoPago" class="form-control" />
+                        <span asp-validation-for="MontoPago" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="MetodoPago" class="form-label">Método de Pago</label>
+                        <input asp-for="MetodoPago" class="form-control" />
+                        <span asp-validation-for="MetodoPago" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="IdUsuario" class="form-label">Usuario Responsable</label>
+                        <select asp-for="IdUsuario" class="form-select" asp-items="ViewBag.IdUsuario"></select>
+                    </div>
+                </div>
+
+                <div class="mt-4 d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                    <input type="submit" value="Guardar Gate In" class="btn btn-success" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

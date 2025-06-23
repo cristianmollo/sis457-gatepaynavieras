@@ -1,0 +1,61 @@
+﻿@model FinalGatePayNavieras.Models.GateIn
+
+@{
+    ViewData["Title"] = "Eliminar Gate In";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card border-danger shadow-sm">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0">¿Estás seguro de eliminar este registro?</h4>
+        </div>
+
+        <div class="card-body">
+            <h5 class="text-muted mb-4">Gate In</h5>
+            <dl class="row">
+
+                <dt class="col-sm-3">Número BL</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NumeroBl)</dd>
+
+                <dt class="col-sm-3">Contenedor</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Contenedor)</dd>
+
+                <dt class="col-sm-3">Monto Pago</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MontoPago)</dd>
+
+                <dt class="col-sm-3">Método Pago</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MetodoPago)</dd>
+
+                <dt class="col-sm-3">Fecha de Pago</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.FechaPago)</dd>
+
+                <dt class="col-sm-3">Usuario Registro</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.UsuarioRegistro)</dd>
+
+                <dt class="col-sm-3">Fecha de Registro</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.FechaRegistro)</dd>
+
+                <dt class="col-sm-3">Estado</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Estado)</dd>
+
+                <dt class="col-sm-3">Cliente</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.IdClienteNavigation.Id)</dd>
+
+                <dt class="col-sm-3">Naviera</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.IdNavieraNavigation.Id)</dd>
+
+                <dt class="col-sm-3">Usuario</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.IdUsuarioNavigation.Id)</dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div class="mt-4 d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                    <input type="submit" value="Eliminar" class="btn btn-danger" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

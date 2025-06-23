@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\controllers\\gateinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\controllers\\gateinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\gateins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\gateins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\gateins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\gateins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\solicitudpagoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\solicitudpagoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\controllers\\solicitudpagoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\controllers\\solicitudpagoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\solicitudpagoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\solicitudpagoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Documents\\Final\\finalateinPayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finalateinPayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalGatePayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\gateins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\gateins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\gateins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\gateins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\gateins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\gateins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\solicitudpagoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\solicitudpagoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\solicitudpagoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\solicitudpagoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\solicitudpagoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\solicitudpagoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|c:\\users\\hp\\documents\\final\\finalgatepaynavieras\\models\\gatein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6683C17C-0774-454C-AD44-7B22E020323A}|FinalGatePayNavieras\\FinalGatePayNavieras.csproj|solutionrelative:finalgatepaynavieras\\models\\gatein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Documents\\Final\\finalateinPayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finalateinPayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalGatePayNavieras.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GateInsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Controllers\\GateInsController.cs",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Controllers\\GateInsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Controllers\\GateInsController.cs",
+              "RelativeToolTip": "FinalGatePayNavieras\\Controllers\\GateInsController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwIkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T21:21:31.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\GateIns\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Index.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\GateIns\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T14:45:21.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\GateIns\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Edit.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\GateIns\\Edit.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAiwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T14:44:24.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Details.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\GateIns\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Details.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\GateIns\\Details.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T14:43:14.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\GateIns\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Delete.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\GateIns\\Delete.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T14:42:20.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\GateIns\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\GateIns\\Create.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\GateIns\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T14:38:02.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Create.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Create.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwD8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T14:28:14.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SolicitudPagoesController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Controllers\\SolicitudPagoesController.cs",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Controllers\\SolicitudPagoesController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Controllers\\SolicitudPagoesController.cs",
+              "RelativeToolTip": "FinalGatePayNavieras\\Controllers\\SolicitudPagoesController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAADwv6sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:48:59.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Index.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:41:20.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Edit.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Edit.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:40:52.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Details.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Details.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:39:17.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\SolicitudPagoes\\Delete.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\SolicitudPagoes\\Delete.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:37:18.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:15:29.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Clientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Edit.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Clientes\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:15:14.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Clientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Details.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Clientes\\Details.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:13:42.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Delete.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Clientes\\Delete.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:13:06.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:06:08.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswC4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T12:52:48.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T12:41:02.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FinalGatePayNavieras\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T12:33:05.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Program.cs",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Program.cs",
+              "RelativeToolTip": "FinalGatePayNavieras\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:32:58.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "finalateinPayNavieras.sql ",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\finalateinPayNavieras.sql",
+              "RelativeDocumentMoniker": "finalateinPayNavieras.sql",
+              "ToolTip": "finalateinPayNavieras.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-23T12:25:11.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FinalGatePayNavieras.sql ",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras.sql",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras.sql",
+              "ToolTip": "FinalGatePayNavieras.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-23T12:06:12.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GateIn.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Models\\GateIn.cs",
+              "RelativeDocumentMoniker": "FinalGatePayNavieras\\Models\\GateIn.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\Final\\FinalGatePayNavieras\\Models\\GateIn.cs",
+              "RelativeToolTip": "FinalGatePayNavieras\\Models\\GateIn.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAawBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T02:30:11.618Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

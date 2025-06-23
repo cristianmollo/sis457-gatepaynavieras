@@ -1,0 +1,73 @@
+﻿@model FinalGatePayNavieras.Models.SolicitudPagoBancoChile
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>SolicitudPagoBancoChile</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdCliente" class="control-label"></label>
+                <select asp-for="IdCliente" class ="form-control" asp-items="ViewBag.IdCliente"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NombreSolicitante" class="control-label"></label>
+                <input asp-for="NombreSolicitante" class="form-control" />
+                <span asp-validation-for="NombreSolicitante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MontoDolares" class="control-label"></label>
+                <input asp-for="MontoDolares" class="form-control" />
+                <span asp-validation-for="MontoDolares" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoCambio" class="control-label"></label>
+                <input asp-for="TipoCambio" class="form-control" />
+                <span asp-validation-for="TipoCambio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comision" class="control-label"></label>
+                <input asp-for="Comision" class="form-control" />
+                <span asp-validation-for="Comision" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MontoEnBolivianos" class="control-label"></label>
+                <input asp-for="MontoEnBolivianos" class="form-control" />
+                <span asp-validation-for="MontoEnBolivianos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaPago" class="control-label"></label>
+                <input asp-for="FechaPago" class="form-control" />
+                <span asp-validation-for="FechaPago" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RutaComprobantePago" class="control-label"></label>
+                <input asp-for="RutaComprobantePago" class="form-control" />
+                <span asp-validation-for="RutaComprobantePago" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observaciones" class="control-label"></label>
+                <input asp-for="Observaciones" class="form-control" />
+                <span asp-validation-for="Observaciones" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

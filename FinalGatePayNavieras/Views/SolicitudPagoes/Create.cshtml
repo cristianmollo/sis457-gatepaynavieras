@@ -1,0 +1,75 @@
+﻿@model FinalGatePayNavieras.Models.SolicitudPago
+
+@{
+    ViewData["Title"] = "Nueva Solicitud de Pago";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var clientes = ViewData["IdCliente"] as SelectList;
+    var navieras = ViewData["IdNaviera"] as SelectList;
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Registrar Solicitud de Pago</h4>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Create" method="post" autocomplete="off">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label asp-for="IdCliente" class="form-label">Cliente</label>
+                        <select asp-for="IdCliente" class="form-select" asp-items="clientes"></select>
+                        <span asp-validation-for="IdCliente" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="IdNaviera" class="form-label">Naviera</label>
+                        <select asp-for="IdNaviera" class="form-select" asp-items="navieras"></select>
+                        <span asp-validation-for="IdNaviera" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="NumeroBl" class="form-label">Número BL</label>
+                        <input asp-for="NumeroBl" class="form-control" />
+                        <span asp-validation-for="NumeroBl" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Contenedor" class="form-label">Contenedor</label>
+                        <input asp-for="Contenedor" class="form-control" />
+                        <span asp-validation-for="Contenedor" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="MontoEstimado" class="form-label">Monto Estimado</label>
+                        <input asp-for="MontoEstimado" class="form-control" />
+                        <span asp-validation-for="MontoEstimado" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="TipoCambio" class="form-label">Tipo de Cambio</label>
+                        <input asp-for="TipoCambio" class="form-control" />
+                        <span asp-validation-for="TipoCambio" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="Comision" class="form-label">Comisión</label>
+                        <input asp-for="Comision" class="form-control" />
+                        <span asp-validation-for="Comision" class="text-danger small"></span>
+                    </div>
+                </div>
+
+                <div class="mt-4 d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                    <button type="submit" class="btn btn-success">Guardar Solicitud</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

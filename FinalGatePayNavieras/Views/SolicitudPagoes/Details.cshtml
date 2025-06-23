@@ -1,0 +1,66 @@
+﻿@model FinalGatePayNavieras.Models.SolicitudPago
+
+@{
+    ViewData["Title"] = "Detalles de Solicitud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-body px-5 py-4">
+
+            <h2 class="mb-4 text-primary"><i class="bi bi-file-earmark-text-fill me-2"></i>Detalles de la Solicitud de Pago</h2>
+
+            <dl class="row border-start border-4 border-primary ps-3">
+                <dt class="col-sm-4 fw-semibold text-secondary">Número BL</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NumeroBl)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Contenedor</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Contenedor)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Monto Estimado (USD)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.MontoEstimado)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Tipo de Cambio</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TipoCambio)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Comisión (%)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Comision)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Total en Bs</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TotalEnBolivianos)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Estado G.</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.EstadoG)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Fecha de Solicitud</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.FechaSolicitud)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Registrado por</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.UsuarioRegistro)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Fecha de Registro</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.FechaRegistro)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">Estado</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Estado)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">ID Cliente</dt>
+                <dd class="col-sm-8">#@Html.DisplayFor(model => model.IdClienteNavigation.Id)</dd>
+
+                <dt class="col-sm-4 fw-semibold text-secondary">ID Naviera</dt>
+                <dd class="col-sm-8">#@Html.DisplayFor(model => model.IdNavieraNavigation.Id)</dd>
+            </dl>
+
+            <div class="mt-4 d-flex justify-content-start gap-3">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary btn-lg">
+                    <i class="bi bi-pencil-fill me-1"></i>Editar
+                </a>
+                <a asp-action="Index" class="btn btn-secondary btn-lg">
+                    <i class="bi bi-arrow-left"></i> Volver a la lista
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
