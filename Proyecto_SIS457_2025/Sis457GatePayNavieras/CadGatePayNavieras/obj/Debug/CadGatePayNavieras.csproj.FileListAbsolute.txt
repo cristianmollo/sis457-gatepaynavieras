@@ -1,0 +1,42 @@
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll.config
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.pdb
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.xml
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.AssemblyReference.cache
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.CoreCompileInputs.cache
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGateP.4346E547.Up2Date
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.dll
+D:\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.pdb
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll.config
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.pdb
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.dll
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.dll
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.xml
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.xml
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.AssemblyReference.cache
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.CoreCompileInputs.cache
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGateP.4346E547.Up2Date
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.dll
+F:\sis457-gatepaynavieras\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll.config
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.dll
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\CadGatePayNavieras.pdb
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.dll
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.xml
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGateP.4346E547.Up2Date
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.dll
+C:\Users\hp\Documents\Proyecto_SIS457_2025\Sis457GatePayNavieras\CadGatePayNavieras\obj\Debug\CadGatePayNavieras.pdb
+>>>>>>> 19c75cd (Avance del proyecto: agregados archivos y mejoras)
+>>>>>>> 0eb0043 (Actualización: avance del proyecto)
